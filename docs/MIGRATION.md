@@ -2,11 +2,11 @@
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
-> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 18 个项目的归档删除。**
+> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 19 个项目的归档删除。**
 
 ---
 
-## 一、已发布并核验的仓库（18 个）
+## 一、已发布并核验的仓库（19 个）
 
 | # | 仓库 | 本地来源 | 远端 main SHA | 测试/核验 |
 |---|---|---|---|---|
@@ -28,6 +28,7 @@
 | 16 | [livekit-live-demo](https://github.com/hhxpoint/livekit-live-demo) | `D:\03-Projects\live` | `ecb2861` | Go/前端源码归档；页面截图 |
 | 17 | [web-experiments](https://github.com/hhxpoint/web-experiments) | `D:\03-Projects\C++\{web,webrtc,onnx}` | `9cca9b4` | HTML/CSS/JS 实验 + 截图；来源注明 |
 | 18 | [wechat-demo-projects](https://github.com/hhxpoint/wechat-demo-projects) | `D:\03-Projects\story` + `C:\...\WeChatProjects\miniprogram-2` | `45fa3aa` | 官方/Vant 模板，保留原始署名 |
+| 19 | [attendance-servlet](https://github.com/hhxpoint/attendance-servlet) | `D:\03-Projects\C++\attendance` | `e629ad8` | `mvn package` 通过；修复 QAnnouncementDAO 类名 |
 
 每个仓库均包含：
 
@@ -119,6 +120,7 @@
 | LiveKit 直播 | `D:\03-Projects\live` | `archive\live.zip` | 已删除 |
 | Web 实验 | `D:\03-Projects\C++\{web,webrtc,onnx}` | `archive\{web,webrtc,onnx}.zip` | 已删除 |
 | 微信示例 | `D:\03-Projects\story` / `C:\...\miniprogram-2` | `archive\{story,miniprogram-2}.zip` | 已删除 |
+| 团队考勤 Servlet | `D:\03-Projects\C++\attendance` | `archive\attendance-servlet.zip` | 已删除 |
 
 - 归档目录：`D:\dsh\workplace\migration\archive\`
 - 清单与 SHA256：`archive\archive-manifest.json`
@@ -139,7 +141,7 @@
 
 ## 六、结论
 
-- 已完成 **16 个新开源仓库 + 2 个已有仓库**的整理/发布/核验，并归档删除 11 个本地项目。
+- 已完成 **17 个新开源仓库 + 2 个已有仓库**的整理/发布/核验，并归档删除 11 个本地项目。
 - 每个仓库都有完整 README、运行环境、功能说明、目录结构、测试/验收步骤。
 - 第三方面孔/团队项目/大数据没有擅自开源或删除。
 - 下一步需要你确认：

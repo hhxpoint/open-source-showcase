@@ -186,7 +186,16 @@
 
 ---
 
-### 19. 项目迁移说明
+### 19. 团队考勤 Servlet
+
+> Java Servlet + JDBC + MySQL 团队考勤系统：用户、打卡、请假、部门、公告、日志；保留完整 Contributors。
+
+- 仓库：[hhxpoint/attendance-servlet](https://github.com/hhxpoint/attendance-servlet)
+- 技术：Java Servlet、JDBC、MySQL、Tomcat
+
+---
+
+### 20. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 
