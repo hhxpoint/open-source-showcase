@@ -2,11 +2,11 @@
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
-> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 11 个项目的归档删除。**
+> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 13 个项目的归档删除。**
 
 ---
 
-## 一、已发布并核验的仓库（15 个）
+## 一、已发布并核验的仓库（16 个）
 
 | # | 仓库 | 本地来源 | 远端 main SHA | 测试/核验 |
 |---|---|---|---|---|
@@ -25,6 +25,7 @@
 | 13 | [travel-agent](https://github.com/hhxpoint/travel-agent) | `D:\03-Projects\C++\travel` | `77e04c5` | `py_compile` 通过；API Key 已脱敏 |
 | 14 | [food-delivery-system](https://github.com/hhxpoint/food-delivery-system) | `D:\03-Projects\C++\system` | `70f9bb0` | `py_compile` 通过 |
 | 15 | [flask-oj-platform](https://github.com/hhxpoint/flask-oj-platform) | `D:\03-Projects\C++\pro` | `57b0809` | 启动成功；首页截图；模板引用修复 |
+| 16 | [livekit-live-demo](https://github.com/hhxpoint/livekit-live-demo) | `D:\03-Projects\live` | `ecb2861` | Go/前端源码归档；页面截图 |
 
 每个仓库均包含：
 
@@ -112,6 +113,8 @@
 | 旅游智能体 | `D:\03-Projects\C++\travel` | `archive\travel.zip` | 已删除 |
 | 外卖系统 | `D:\03-Projects\C++\system` | `archive\food-delivery-system.zip` | 已删除 |
 | Flask OJ | `D:\03-Projects\C++\pro` | `archive\flask-oj-platform.zip` | 已删除 |
+| Flask OJ 重复版 | `D:\03-Projects\C++\prepro` | `archive\prepro.zip` | 已删除 |
+| LiveKit 直播 | `D:\03-Projects\live` | `archive\live.zip` | 已删除 |
 
 - 归档目录：`D:\dsh\workplace\migration\archive\`
 - 清单与 SHA256：`archive\archive-manifest.json`
@@ -132,7 +135,7 @@
 
 ## 六、结论
 
-- 已完成 **13 个新开源仓库 + 2 个已有仓库**的整理/发布/核验，并归档删除 11 个本地项目。
+- 已完成 **14 个新开源仓库 + 2 个已有仓库**的整理/发布/核验，并归档删除 11 个本地项目。
 - 每个仓库都有完整 README、运行环境、功能说明、目录结构、测试/验收步骤。
 - 第三方面孔/团队项目/大数据没有擅自开源或删除。
 - 下一步需要你确认：
@@ -167,7 +170,8 @@
 | `online` | 已开源（online-judge）并归档删除 |
 | `C++` | 见下方 C++ 子目录 |
 | `story` | 微信官方示例模板，SKIP |
-| `go-project` / `live` / `project` | 空项目/无有效代码，SKIP |
+| `live` | 已开源（livekit-live-demo）并归档删除 |
+| `go-project` / `project` | 空项目/无有效代码，SKIP |
 | `claude` / `dev` | 第三方软件/服务器安装包，SKIP |
 
 ### D:\03-Projects\C++
@@ -182,7 +186,7 @@
 | `Gun-Mayhem-*` | 团队项目（README 有团队成员/原作者），SKIP/需授权 |
 | `attendance` / `attendance-system` | 团队考勤项目重复版本，SKIP |
 | `pro` | 已开源（flask-oj-platform）并归档删除 |
-| `prepro` | 与 flask-oj-platform 重复的实验版本，保留本地 |
+| `prepro` | 与 flask-oj-platform 重复，已归档删除 |
 | `object` / `onnx` / `models` / `books` / `web` / `hit` / `test` / `webrtc` / `cpp` / `docs` / `travel?` | 数据集/模型/电子书/实验碎片；未达到独立开源项目标准 |
 | `综述` / `系统结构` | 课程报告/试题，非代码项目 |
 | `node_modules` / `.venv` / `__pycache__` | 依赖/缓存，不迁移 |

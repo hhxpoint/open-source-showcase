@@ -158,7 +158,17 @@
 
 ---
 
-### 16. 项目迁移说明
+### 16. LiveKit 多人直播
+
+> Go + LiveKit + 原生前端的多人直播/连麦示例，支持 Token 签发、音视频、屏幕共享和聊天。
+
+- 仓库：[hhxpoint/livekit-live-demo](https://github.com/hhxpoint/livekit-live-demo)
+- 技术：Go、LiveKit、WebRTC、Docker Compose
+- 截图：进入直播间页面
+
+---
+
+### 17. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 
