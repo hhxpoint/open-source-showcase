@@ -2,7 +2,7 @@
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
-> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；本地删除尚未执行。**
+> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 8 个项目的归档删除。**
 
 ---
 
@@ -94,7 +94,7 @@
 
 ---
 
-## 五、本地删除状态：**尚未执行**
+## 五、本地删除状态：已完成 8 个项目（先归档后删除）
 
 原因：
 
@@ -139,4 +139,5 @@
 - 审计/扫描：`D:\dsh\workplace\migration\secret-scan.json`
 - 各项目 staging：`D:\dsh\workplace\migration\staging\`
 - 本报告：`D:\dsh\workplace\migration\MIGRATION_REPORT.md`
+
 
