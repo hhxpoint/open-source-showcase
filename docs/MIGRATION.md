@@ -2,7 +2,7 @@
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
-> 状态：**已开源/核验 19 个项目仓库；已完成 19 个本地项目的归档删除；仅剩 Gun-Mayhem 团队项目与 RAG/Blog/ML 原始数据保留本地。**
+> 状态：**已完成：20 个公开项目仓库 + 私有原始数据归档 + 本地项目目录清理。**
 
 ---
 
@@ -234,3 +234,52 @@
 - 本地仍保留部分原始项目，便于你确认授权/补充未上传素材。
 
 
+
+
+---
+
+## 八、私有原始数据归档（最终）
+
+私有仓库：[hhxpoint/private-project-archive](https://github.com/hhxpoint/private-project-archive)
+
+Release `v1` 资产（共 10 个，合计约 2.7GB）：
+
+| 资产 | 内容 |
+|---|---|
+| `rag-full.zip` | D:\rag 完整项目（含视频/交付包） |
+| `blog-full.zip` | D:\03-Projects\Blog 原始目录（含部署配置/data） |
+| `ml-raw.zip` | 人脸原图/数据集/模型/报告 |
+| `object.zip.001-003` | D:\03-Projects\C++\object 分卷 |
+| `misc.zip` | 电子书/实验碎片/课程报告 |
+| `local-clones.zip` | answer / answer-private / agent 本地副本 |
+| `cop2000.zip` | D:\cop2000 |
+| `answer-couple-server.zip` | 服务端源码 |
+| `checksums.sha256` | 全部资产 SHA256 |
+
+**校验**：10 个 release asset 均 `state=uploaded`，大小与本地一致；zip 均通过 `testzip()`；分卷 SHA256 已记录。
+
+### 本地清理结果
+
+已删除本地项目目录（原路径）：
+
+- `D:\rag`
+- `D:\03-Projects\Blog`
+- `D:\03-Projects\answer`、`answer-private`、`answer-couple-server`、`agent`
+- `D:\03-Projects\C++`（含 face/catdog/birdclef/DL/ML/object/books/hit 等全部子目录）
+- `D:\03-Projects\project`
+- `D:\cop2000`
+- `C:\Users\卒星轩\WeChatProjects`（空目录）
+
+保留：
+
+- `D:\03-Projects\claude`、`D:\03-Projects\dev`：第三方工具/服务器安装包，非个人项目
+- `D:\03-Projects\README.md`：总览说明
+- `D:\dsh\workplace\migration\`：迁移台账、审计、归档与校验记录
+- `D:\03-Projects` 之外的系统工具/游戏/模型权重未动
+
+### 结论
+
+- 公开项目：20 个仓库
+- 私有原始数据：1 个私有仓库 + Release 资产
+- 本地个人项目目录：已清理
+- 全量审计、脱敏、测试、远端校验、归档 SHA 均可回溯
