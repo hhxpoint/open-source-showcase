@@ -128,7 +128,7 @@
 - 归档目录：`D:\dsh\workplace\migration\archive\`
 - 清单与 SHA256：`archive\archive-manifest.json`
 - 每个 zip 均通过 `zipfile.testzip()`，确认可解压后才删除原目录
-- 备份保留 30 天，确认远端仓库稳定后再清理
+- 本地 staging、私有归档暂存、公开项目归档 zip 均已清理；仅保留报告、清单、SHA256 校验记录
 
 ### 尚未删除（需归属确认/有未上传数据）
 
@@ -283,3 +283,15 @@ Release `v1` 资产（共 10 个，合计约 2.7GB）：
 - 私有原始数据：1 个私有仓库 + Release 资产
 - 本地个人项目目录：已清理
 - 全量审计、脱敏、测试、远端校验、归档 SHA 均可回溯
+
+
+---
+
+## 九、最终清理确认
+
+- 本地项目目录：已删除（除第三方工具 claude/dev 与总览 README）
+- 本地 staging / private-assets / archive zip：已删除
+- 保留：MIGRATION_REPORT.md、MANIFEST.md、archive-manifest.json、secret-scan.json、校验记录
+- 公开项目：20 个 GitHub 仓库
+- 私有原始数据：hhxpoint/private-project-archive + Release v1（10 个资产，约 2.7GB）
+- 远端校验：私有 Release 资产 state=uploaded；公开仓库 main SHA 与本地已归档提交一致
