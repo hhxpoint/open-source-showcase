@@ -168,7 +168,25 @@
 
 ---
 
-### 17. 项目迁移说明
+### 17. Web 前端实验合集
+
+> HTML/CSS 布局、购物车、WebRTC 信令、浏览器本地 TTS。
+
+- 仓库：[hhxpoint/web-experiments](https://github.com/hhxpoint/web-experiments)
+- 技术：HTML/CSS/JS、Socket.IO、Transformers.js
+
+---
+
+### 18. 微信示例项目合集
+
+> 微信官方飞机大战小游戏模板 + Vant 花坊小程序 UI；保留原始署名/许可。
+
+- 仓库：[hhxpoint/wechat-demo-projects](https://github.com/hhxpoint/wechat-demo-projects)
+- 技术：微信小游戏、微信小程序、Vant Weapp
+
+---
+
+### 19. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 
