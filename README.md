@@ -148,7 +148,17 @@
 
 ---
 
-### 15. 项目迁移说明
+### 15. Flask OJ 在线判题系统
+
+> Flask + SQLite 的在线判题系统：题库、代码提交、C++/Python 判题、用户认证、管理后台、实时 PK。
+
+- 仓库：[hhxpoint/flask-oj-platform](https://github.com/hhxpoint/flask-oj-platform)
+- 技术：Python、Flask、SQLAlchemy、SQLite
+- 截图：题库首页已归档
+
+---
+
+### 16. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 

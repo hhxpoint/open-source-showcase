@@ -6,7 +6,7 @@
 
 ---
 
-## 一、已发布并核验的仓库（14 个）
+## 一、已发布并核验的仓库（15 个）
 
 | # | 仓库 | 本地来源 | 远端 main SHA | 测试/核验 |
 |---|---|---|---|---|
@@ -24,6 +24,7 @@
 | 12 | [open-source-showcase](https://github.com/hhxpoint/open-source-showcase) | 新建索引 | `bd3ce6a`（随后更新） | 项目索引/截图 |
 | 13 | [travel-agent](https://github.com/hhxpoint/travel-agent) | `D:\03-Projects\C++\travel` | `77e04c5` | `py_compile` 通过；API Key 已脱敏 |
 | 14 | [food-delivery-system](https://github.com/hhxpoint/food-delivery-system) | `D:\03-Projects\C++\system` | `70f9bb0` | `py_compile` 通过 |
+| 15 | [flask-oj-platform](https://github.com/hhxpoint/flask-oj-platform) | `D:\03-Projects\C++\pro` | `57b0809` | 启动成功；首页截图；模板引用修复 |
 
 每个仓库均包含：
 
@@ -211,4 +212,5 @@
 - 明确可开源的代码项目已完成 14 个仓库（含 2 个原有仓库）。
 - 团队项目、第三方软件、模板、数据集/模型、个人文件均未擅自上传或删除。
 - 本地仍保留部分原始项目，便于你确认授权/补充未上传素材。
+
 
