@@ -222,3 +222,25 @@
 ## License
 
 本索引页 MIT。各项目许可证以对应仓库为准。
+
+---
+
+### 21. 课程报告工具集 · academic-reports
+
+> ASR/TTS 综述报告生成 + 计算机网络实验报告批量排版工具；保留代码、LaTeX、拓扑图与设备配置，不含个人 docx。
+
+- 仓库：[hhxpoint/academic-reports](https://github.com/hhxpoint/academic-reports)
+- 技术：Python、python-docx、LaTeX
+
+### 22. cuSignal CUDA/C++ Rebuild
+
+> 基于 NVIDIA cuSignal（Apache-2.0）的 CUDA/C++ 本地重建实验；保留上游 LICENSE/NOTICE 与构建验证文档。
+
+- 仓库：[hhxpoint/cusignal-cuda-rebuild](https://github.com/hhxpoint/cusignal-cuda-rebuild)
+- 技术：CUDA、C++、Python、RAPIDS
+
+### 23. D 盘工作区整理
+
+> `D:\00-Workspace` 统一收纳 Academic / Projects / AI-ML / DevTools / Data / Misc / Tools / Archive / Index；顶层可见文件夹控制在 19 个。
+
+- 说明：见 `docs/D_DRIVE_ORGANIZATION.md`
