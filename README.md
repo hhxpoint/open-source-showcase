@@ -101,6 +101,31 @@
 - 技术：TypeScript、Bun、Node.js、Ink
 - 安装：`npm install -g pointcode`
 
+### 9. 机器学习课程项目合集
+
+> PCA/LDA 人脸识别、猫狗分类、BirdCLEF、IRIS 与 ML 作业；只保留源码/配置/结果图，原始数据与报告不入库。
+
+- 仓库：[hhxpoint/ml-coursework](https://github.com/hhxpoint/ml-coursework)
+- 技术：Python、scikit-learn、TensorFlow/Keras、OpenCV
+
+---
+
+### 10. 固定资产管理系统
+
+> JavaWeb + Servlet/JSP + MySQL：资产分类、入库/领用/归还/报废、用户权限、操作记录、统计。
+
+- 仓库：[hhxpoint/asset-management-system](https://github.com/hhxpoint/asset-management-system)
+- 技术：Java 8、Servlet 4、JSP、MySQL、Tomcat
+- 测试：`mvn test` **2 passed**
+
+---
+
+### 11. 项目迁移说明
+
+完整盘点、脱敏、测试、远端校验与待确认清单：
+
+- [docs/MIGRATION.md](docs/MIGRATION.md)
+
 ---
 
 ## 关于
