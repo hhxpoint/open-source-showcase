@@ -130,7 +130,25 @@
 
 ---
 
-### 12. 项目迁移说明
+### 13. 旅游攻略智能体
+
+> LangChain + RAG + ChromaDB 的旅游攻略助手，支持对话、攻略管理、MCP。
+
+- 仓库：[hhxpoint/travel-agent](https://github.com/hhxpoint/travel-agent)
+- 技术：Python、Flask、LangChain、ChromaDB
+
+---
+
+### 14. 外卖点餐系统
+
+> Python Tkinter + SQLite 桌面外卖系统：登录、餐厅、购物车、订单、评价、管理后台。
+
+- 仓库：[hhxpoint/food-delivery-system](https://github.com/hhxpoint/food-delivery-system)
+- 技术：Python、Tkinter、SQLite
+
+---
+
+### 15. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 

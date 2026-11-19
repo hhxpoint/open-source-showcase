@@ -6,7 +6,7 @@
 
 ---
 
-## 一、已发布并核验的仓库（12 个）
+## 一、已发布并核验的仓库（14 个）
 
 | # | 仓库 | 本地来源 | 远端 main SHA | 测试/核验 |
 |---|---|---|---|---|
@@ -21,7 +21,9 @@
 | 9 | [asset-management-system](https://github.com/hhxpoint/asset-management-system) | `D:\03-Projects\C++\asset-management-system` | `f259252` | `mvn test` 2 passed |
 | 10 | [pointcode](https://github.com/hhxpoint/pointcode) | `D:\03-Projects\agent\pointcode` | `09b6b85` | 已有开源仓库，保留 |
 | 11 | [browser-games](https://github.com/hhxpoint/browser-games) | `D:\03-Projects\C++\{gobang-game-main,soulshooter-main,cgg}` | `5f9ef89` | JS 语法检查 + 页面截图 |
-| 12 | [open-source-showcase](https://github.com/hhxpoint/open-source-showcase) | 新建索引 | `76df81c`（随后更新） | 项目索引/截图 |
+| 12 | [open-source-showcase](https://github.com/hhxpoint/open-source-showcase) | 新建索引 | `bd3ce6a`（随后更新） | 项目索引/截图 |
+| 13 | [travel-agent](https://github.com/hhxpoint/travel-agent) | `D:\03-Projects\C++\travel` | `77e04c5` | `py_compile` 通过；API Key 已脱敏 |
+| 14 | [food-delivery-system](https://github.com/hhxpoint/food-delivery-system) | `D:\03-Projects\C++\system` | `70f9bb0` | `py_compile` 通过 |
 
 每个仓库均包含：
 
