@@ -142,5 +142,73 @@
 - 各项目 staging：`D:\dsh\workplace\migration\staging\`
 - 本报告：`D:\dsh\workplace\migration\MIGRATION_REPORT.md`
 
+---
 
+## 七、全量目录审计附录（D 盘 / C 盘）
+
+### D:\03-Projects
+
+| 目录 | 状态 |
+|---|---|
+| `answer` | 已开源（answer） |
+| `answer-private` | 私有仓库保留 |
+| `answer-couple-server` | 私有服务端保留 |
+| `agent/pointcode` | 已开源（pointcode） |
+| `adventure` | 已开源（tanghulu-adventure）并归档删除 |
+| `attendance-system` | 已开源（attendance-system）并归档删除 |
+| `Blog` | 已脱敏开源（blog-oj），原始部署配置/数据保留 |
+| `online` | 已开源（online-judge）并归档删除 |
+| `C++` | 见下方 C++ 子目录 |
+| `story` | 微信官方示例模板，SKIP |
+| `go-project` / `live` / `project` | 空项目/无有效代码，SKIP |
+| `claude` / `dev` | 第三方软件/服务器安装包，SKIP |
+
+### D:\03-Projects\C++
+
+| 子目录 | 状态 |
+|---|---|
+| `face` / `catdog` / `birdclef2026` / `DL` / `ML` | 源码/配置/结果图 → ml-coursework；原始照片/数据/模型/报告未上传 |
+| `asset-management-system` | 已开源（asset-management-system）并归档删除 |
+| `gobang-game-main` / `soulshooter-main` / `cgg` | 已开源（browser-games）并归档删除 |
+| `travel` | 已开源（travel-agent）并归档删除 |
+| `system` | 已开源（food-delivery-system）并归档删除 |
+| `Gun-Mayhem-*` | 团队项目（README 有团队成员/原作者），SKIP/需授权 |
+| `attendance` / `attendance-system` | 团队考勤项目重复版本，SKIP |
+| `pro` / `prepro` | Flask OJ 实验版本，与 online-judge/blog-oj 重复，暂未单独发布 |
+| `object` / `onnx` / `models` / `books` / `web` / `hit` / `test` / `webrtc` / `cpp` / `docs` / `travel?` | 数据集/模型/电子书/实验碎片；未达到独立开源项目标准 |
+| `综述` / `系统结构` | 课程报告/试题，非代码项目 |
+| `node_modules` / `.venv` / `__pycache__` | 依赖/缓存，不迁移 |
+
+### D 盘其他目录
+
+| 目录 | 状态 |
+|---|---|
+| `rag` | 已开源（rag-cooking-kg）；完整视频/zip 保留本地 |
+| `cop2000` | .ASM/.LST 已归档 academic-projects；商业仿真器/PDF 保留 |
+| `06-Games` | Steam 游戏库（154GB），SKIP |
+| `work/xiezuo` | 第三方写作软件，SKIP |
+| `zcode` / `xljsci` / `TrustAgent` / `magic` / `Qcode` | 第三方软件/安装包，SKIP |
+| `dsh` / `develop_tool` / `TEMP` / 其他 | 工具/临时目录，SKIP |
+
+### C 盘用户目录
+
+| 目录 | 状态 |
+|---|---|
+| `WeChatProjects/miniprogram-2` | Vant 花坊 UI 模板，暂未发布（待原创确认） |
+| `source/repos` | C++ 控制台练习 → academic-projects，已归档删除 |
+| `CodeBuddy` / `WorkBuddy` | 生成式工作区快照，非完整项目，SKIP |
+| `Documents/vmodel_parts*` | 模型权重分片（约 2.3GB），SKIP |
+| `Desktop` / `Downloads` / `Documents` 其他 | 个人文件/安装包，不纳入开源 |
+
+### 归档删除记录
+
+- 已归档并删除 10 个项目：见第五节表格
+- 归档目录：`D:\dsh\workplace\migration\archive\`
+- 清单/SHA：`archive\archive-manifest.json`
+
+### 结论
+
+- 明确可开源的代码项目已完成 14 个仓库（含 2 个原有仓库）。
+- 团队项目、第三方软件、模板、数据集/模型、个人文件均未擅自上传或删除。
+- 本地仍保留部分原始项目，便于你确认授权/补充未上传素材。
 
