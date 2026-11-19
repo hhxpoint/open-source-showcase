@@ -1,4 +1,4 @@
-# 全量项目开源迁移报告
+﻿# 全量项目开源迁移报告
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
@@ -20,7 +20,8 @@
 | 8 | [ml-coursework](https://github.com/hhxpoint/ml-coursework) | `D:\03-Projects\C++\{face,catdog,birdclef2026,DL,ML}` | `ee1a431` | 源码/配置/结果图归档；大数据未入库 |
 | 9 | [asset-management-system](https://github.com/hhxpoint/asset-management-system) | `D:\03-Projects\C++\asset-management-system` | `f259252` | `mvn test` 2 passed |
 | 10 | [pointcode](https://github.com/hhxpoint/pointcode) | `D:\03-Projects\agent\pointcode` | `09b6b85` | 已有开源仓库，保留 |
-| 11 | [open-source-showcase](https://github.com/hhxpoint/open-source-showcase) | 新建索引 | `76df81c`（随后更新） | 项目索引/截图 |
+| 11 | [browser-games](https://github.com/hhxpoint/browser-games) | `D:\03-Projects\C++\{gobang-game-main,soulshooter-main,cgg}` | `5f9ef89` | JS 语法检查 + 页面截图 |
+| 12 | [open-source-showcase](https://github.com/hhxpoint/open-source-showcase) | 新建索引 | `76df81c`（随后更新） | 项目索引/截图 |
 
 每个仓库均包含：
 
@@ -138,3 +139,4 @@
 - 审计/扫描：`D:\dsh\workplace\migration\secret-scan.json`
 - 各项目 staging：`D:\dsh\workplace\migration\staging\`
 - 本报告：`D:\dsh\workplace\migration\MIGRATION_REPORT.md`
+

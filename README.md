@@ -120,7 +120,17 @@
 
 ---
 
-### 11. 项目迁移说明
+### 11. 浏览器小游戏合集
+
+> 五子棋（Minimax + 联机）、Soul Shooter（2.5D 射击）、中国象棋（FastAPI + WebSocket）。
+
+- 仓库：[hhxpoint/browser-games](https://github.com/hhxpoint/browser-games)
+- 技术：HTML5 Canvas、JavaScript、Godot HTML5、FastAPI
+- 截图：五子棋 / Soul Shooter 已归档
+
+---
+
+### 12. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 
