@@ -195,7 +195,17 @@
 
 ---
 
-### 20. 项目迁移说明
+### 20. Gun Mayhem 重制版
+
+> Gun Mayhem 的 Cocos2d-x 重制（原生 + WebAssembly）；原版 Kevin Gu，团队重制，hhxpoint 整理归档。
+
+- 仓库：[hhxpoint/gun-mayhem](https://github.com/hhxpoint/gun-mayhem)
+- 技术：C++、Cocos2d-x、Emscripten、WebAssembly
+- 署名：完整 Contributors / 原版来源，非 hhxpoint 独立原创
+
+---
+
+### 21. 项目迁移说明
 
 完整盘点、脱敏、测试、远端校验与待确认清单：
 
