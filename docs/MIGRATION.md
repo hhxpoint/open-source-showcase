@@ -2,7 +2,7 @@
 
 > 日期：2026-11-19
 > 执行：DeepSeek Harness / Lead
-> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 8 个项目的归档删除。**
+> 状态：**第一批已发布并核验；第二批（C++ 团队/第三方项目、微信模板、原始数据）待归属确认；已完成 11 个项目的归档删除。**
 
 ---
 
@@ -181,7 +181,8 @@
 | `system` | 已开源（food-delivery-system）并归档删除 |
 | `Gun-Mayhem-*` | 团队项目（README 有团队成员/原作者），SKIP/需授权 |
 | `attendance` / `attendance-system` | 团队考勤项目重复版本，SKIP |
-| `pro` / `prepro` | Flask OJ 实验版本，与 online-judge/blog-oj 重复，暂未单独发布 |
+| `pro` | 已开源（flask-oj-platform）并归档删除 |
+| `prepro` | 与 flask-oj-platform 重复的实验版本，保留本地 |
 | `object` / `onnx` / `models` / `books` / `web` / `hit` / `test` / `webrtc` / `cpp` / `docs` / `travel?` | 数据集/模型/电子书/实验碎片；未达到独立开源项目标准 |
 | `综述` / `系统结构` | 课程报告/试题，非代码项目 |
 | `node_modules` / `.venv` / `__pycache__` | 依赖/缓存，不迁移 |
