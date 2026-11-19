@@ -6,7 +6,7 @@
 
 ---
 
-## 一、已发布并核验的仓库（11 个）
+## 一、已发布并核验的仓库（12 个）
 
 | # | 仓库 | 本地来源 | 远端 main SHA | 测试/核验 |
 |---|---|---|---|---|
@@ -139,5 +139,6 @@
 - 审计/扫描：`D:\dsh\workplace\migration\secret-scan.json`
 - 各项目 staging：`D:\dsh\workplace\migration\staging\`
 - 本报告：`D:\dsh\workplace\migration\MIGRATION_REPORT.md`
+
 
 
