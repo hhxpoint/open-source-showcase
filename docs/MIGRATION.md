@@ -97,36 +97,42 @@
 
 ---
 
-## 五、本地删除状态：已完成 8 个项目（先归档后删除）
+## 五、本地删除状态：已完成 11 个项目（先归档后删除）
 
-原因：
+| 项目 | 原路径 | 归档文件 | 状态 |
+|---|---|---|---|
+| 考勤系统 | `D:\03-Projects\attendance-system` | `archive\attendance-system.zip` | 已删除 |
+| 在线判题 | `D:\03-Projects\online` | `archive\online.zip` | 已删除 |
+| 糖葫芦小游戏 | `D:\03-Projects\adventure` | `archive\adventure.zip` | 已删除 |
+| 资产管理系统 | `D:\03-Projects\C++\asset-management-system` | `archive\asset-management-system.zip` | 已删除 |
+| C++ 控制台练习 | `C:\Users\卒星轩\source\repos` | `archive\source-repos.zip` | 已删除 |
+| 五子棋 | `D:\03-Projects\C++\gobang-game-main` | `archive\gobang-game-main.zip` | 已删除 |
+| Soul Shooter | `D:\03-Projects\C++\soulshooter-main` | `archive\soulshooter-main.zip` | 已删除 |
+| 中国象棋 | `D:\03-Projects\C++\cgg` | `archive\cgg.zip` | 已删除 |
+| 旅游智能体 | `D:\03-Projects\C++\travel` | `archive\travel.zip` | 已删除 |
+| 外卖系统 | `D:\03-Projects\C++\system` | `archive\food-delivery-system.zip` | 已删除 |
+| Flask OJ | `D:\03-Projects\C++\pro` | `archive\flask-oj-platform.zip` | 已删除 |
 
-1. 用户要求“全部完成后再删”，而 C++ 团队项目、原始数据/模型、微信模板尚未完成归属确认；
-2. 部分项目只上传了**源码子集**（ML 的 raw_photos/models/报告、RAG 的完整视频/zip、Blog 的部署脚本/数据），直接删除会丢失未上传内容；
-3. 删除不可逆，必须先做一次人工复核。
+- 归档目录：`D:\dsh\workplace\migration\archive\`
+- 清单与 SHA256：`archive\archive-manifest.json`
+- 每个 zip 均通过 `zipfile.testzip()`，确认可解压后才删除原目录
+- 备份保留 30 天，确认远端仓库稳定后再清理
 
-### 建议的安全删除流程
+### 尚未删除（需归属确认/有未上传数据）
 
-1. 用户确认待删清单（仅已完整上传且无未上传附件的项目）
-2. 先生成压缩备份到 `D:\dsh\workplace\migration\archive\`
-3. 用 `Get-FileHash` 记录每个原目录清单
-4. 删除原目录
-5. 保留本报告 + 备份 30 天
-
-### 可优先删除（已完整迁移/无重要未上传附件）
-
-- `D:\03-Projects\attendance-system`
-- `D:\03-Projects\online`
-- `D:\03-Projects\adventure`
-- `D:\03-Projects\C++\asset-management-system`
-- `C:\Users\卒星轩\source\repos`
-- `D:\cop2000`（仅 .ASM/.LST 已归档；Cop2000.exe/PDF 为第三方，不建议删前不备份）
+- `D:\rag`：完整视频/zip 未入库
+- `D:\03-Projects\Blog`：部署脚本、data、themes 未入库
+- `D:\03-Projects\C++\face/catdog/birdclef2026/DL/ML`：原始照片/数据/模型/报告未入库
+- `D:\03-Projects\C++\Gun-Mayhem-*`：团队项目，未上传
+- `D:\03-Projects\C++\prepro`：与已开源 Flask OJ 重复
+- `D:\cop2000`：Cop2000.exe/PDF 为第三方，未上传
+- `D:\03-Projects\answer`、`answer-private`、`pointcode`：仍在活跃开发/已有仓库
 
 ---
 
 ## 六、结论
 
-- 已完成 **9 个新开源仓库 + 2 个已有仓库**的整理/发布/核验。
+- 已完成 **13 个新开源仓库 + 2 个已有仓库**的整理/发布/核验，并归档删除 11 个本地项目。
 - 每个仓库都有完整 README、运行环境、功能说明、目录结构、测试/验收步骤。
 - 第三方面孔/团队项目/大数据没有擅自开源或删除。
 - 下一步需要你确认：
