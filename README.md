@@ -13,6 +13,16 @@
 
 ## 项目一览
 
+### 栖页 · QIYE
+
+> 浏览器本地文献阅读工作台：PDF 阅读、本地翻译、证据与笔记、PDF/Word/Markdown 导出，原论文图表按原页保留。
+
+- 仓库：[hhxpoint/qiye-reader](https://github.com/hhxpoint/qiye-reader)
+- 在线体验：https://qiye-library-q5ridqj4azi.qoder.website
+- 技术：React、TypeScript、Vite、pdfjs-dist、Transformers.js、ONNX Runtime Web
+
+---
+
 ### 1. 小火苗 · 微信小程序
 
 > 和重要的人一起养一只小火苗：关系空间、投喂/摸摸/抱抱/打卡、悄悄话、时光相册、纪念日、语音信箱。
@@ -216,6 +226,7 @@
 ## 关于
 
 - GitHub：<https://github.com/hhxpoint>
+- 索引只列当前维护的项目；早期练习、旧版博客和空占位仓库已归档，不再逐条展开。
 - 所有仓库均附 README、运行环境、启动方式、功能清单与测试/验收说明。
 - 代码以 MIT 为主；第三方主题/素材/课程团队项目遵循原许可，不擅自再分发。
 
